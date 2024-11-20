@@ -1,0 +1,29 @@
+{
+  "name": "QR Scanner",
+  "short_name": "QRScan",
+  "description": "An app to scan QR codes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "sizes": "666x370",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
