@@ -1,14 +1,15 @@
 import { useState } from "react";
 import QrReader from "./components/QrReader";
 import "./App.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   const [openQr, setOpenQr] = useState<boolean>(false);
   return (
     <div>
-      <button onClick={() => setOpenQr(!openQr)}>
+      <Button onClick={() => setOpenQr(!openQr)}>
         {openQr ? "Close" : "Open"} QR Scanner
-      </button>
+      </Button>
       {openQr && <QrReader />}
     </div>
   );
